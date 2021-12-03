@@ -16,6 +16,13 @@
 		7F6F1358275A8D2300818E06 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1357275A8D2300818E06 /* SignInViewController.swift */; };
 		7F6F135A275A8D3D00818E06 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1359275A8D3D00818E06 /* SignUpViewController.swift */; };
 		7F6F135C275A909B00818E06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F135B275A909B00818E06 /* GoogleService-Info.plist */; };
+		7F6F135E275A924000818E06 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F135D275A924000818E06 /* PhotoViewerViewController.swift */; };
+		7F6F1360275A925300818E06 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F135F275A925300818E06 /* VideoPlayerViewController.swift */; };
+		7F6F1362275A927800818E06 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1361275A927800818E06 /* NewConversationViewController.swift */; };
+		7F6F1364275A928600818E06 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1363275A928600818E06 /* ProfileViewController.swift */; };
+		7F6F1367275A92D800818E06 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1366275A92D800818E06 /* AuthManager.swift */; };
+		7F6F1369275A92E400818E06 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1368275A92E400818E06 /* DatabaseManager.swift */; };
+		7F6F136B275A92EE00818E06 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F136A275A92EE00818E06 /* StorageManager.swift */; };
 		C272EBA263559A38B455BBAC /* Pods_MessangerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BD27F52D75167BB01D5425 /* Pods_MessangerApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +39,13 @@
 		7F6F1357275A8D2300818E06 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		7F6F1359275A8D3D00818E06 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7F6F135B275A909B00818E06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F6F135D275A924000818E06 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		7F6F135F275A925300818E06 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		7F6F1361275A927800818E06 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		7F6F1363275A928600818E06 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7F6F1366275A92D800818E06 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		7F6F1368275A92E400818E06 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		7F6F136A275A92EE00818E06 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		97BD27F52D75167BB01D5425 /* Pods_MessangerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessangerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE27BE94F5D544C7CCD938C8 /* Pods-MessangerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessangerApp.debug.xcconfig"; path = "Target Support Files/Pods-MessangerApp/Pods-MessangerApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7F6F1350275A8BF100818E06 /* Resources */,
+				7F6F1365275A92BC00818E06 /* Managers */,
 				7F6F134F275A8BEC00818E06 /* Models */,
 				7F6F1351275A8BF700818E06 /* ViewModels */,
 				7F6F134E275A8BE900818E06 /* Views */,
@@ -142,8 +157,9 @@
 		7F6F1352275A8CB100818E06 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				7F6F133D275A891E00818E06 /* ConversationsViewController.swift */,
 				7F6F1355275A8CF100818E06 /* TabBarViewController.swift */,
+				7F6F133D275A891E00818E06 /* ConversationsViewController.swift */,
+				7F6F1363275A928600818E06 /* ProfileViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -160,8 +176,21 @@
 		7F6F1354275A8CBC00818E06 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				7F6F135D275A924000818E06 /* PhotoViewerViewController.swift */,
+				7F6F135F275A925300818E06 /* VideoPlayerViewController.swift */,
+				7F6F1361275A927800818E06 /* NewConversationViewController.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		7F6F1365275A92BC00818E06 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F1366275A92D800818E06 /* AuthManager.swift */,
+				7F6F1368275A92E400818E06 /* DatabaseManager.swift */,
+				7F6F136A275A92EE00818E06 /* StorageManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,10 +309,17 @@
 			files = (
 				7F6F135A275A8D3D00818E06 /* SignUpViewController.swift in Sources */,
 				7F6F1356275A8CF200818E06 /* TabBarViewController.swift in Sources */,
+				7F6F1364275A928600818E06 /* ProfileViewController.swift in Sources */,
 				7F6F133E275A891E00818E06 /* ConversationsViewController.swift in Sources */,
+				7F6F135E275A924000818E06 /* PhotoViewerViewController.swift in Sources */,
 				7F6F133A275A891E00818E06 /* AppDelegate.swift in Sources */,
+				7F6F1360275A925300818E06 /* VideoPlayerViewController.swift in Sources */,
+				7F6F1362275A927800818E06 /* NewConversationViewController.swift in Sources */,
+				7F6F1369275A92E400818E06 /* DatabaseManager.swift in Sources */,
+				7F6F1367275A92D800818E06 /* AuthManager.swift in Sources */,
 				7F6F1358275A8D2300818E06 /* SignInViewController.swift in Sources */,
 				7F6F133C275A891E00818E06 /* SceneDelegate.swift in Sources */,
+				7F6F136B275A92EE00818E06 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,9 @@
 		7F6F1367275A92D800818E06 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1366275A92D800818E06 /* AuthManager.swift */; };
 		7F6F1369275A92E400818E06 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1368275A92E400818E06 /* DatabaseManager.swift */; };
 		7F6F136B275A92EE00818E06 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F136A275A92EE00818E06 /* StorageManager.swift */; };
+		7F6F136D275B43D800818E06 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F136C275B43D800818E06 /* ErrorManager.swift */; };
+		7F6F136F275B43FF00818E06 /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F136E275B43FF00818E06 /* UIButton+Additions.swift */; };
+		7F6F1371275B44D300818E06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1370275B44D300818E06 /* User.swift */; };
 		C272EBA263559A38B455BBAC /* Pods_MessangerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BD27F52D75167BB01D5425 /* Pods_MessangerApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,9 @@
 		7F6F1366275A92D800818E06 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		7F6F1368275A92E400818E06 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		7F6F136A275A92EE00818E06 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		7F6F136C275B43D800818E06 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		7F6F136E275B43FF00818E06 /* UIButton+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Additions.swift"; sourceTree = "<group>"; };
+		7F6F1370275B44D300818E06 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		97BD27F52D75167BB01D5425 /* Pods_MessangerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessangerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE27BE94F5D544C7CCD938C8 /* Pods-MessangerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessangerApp.debug.xcconfig"; path = "Target Support Files/Pods-MessangerApp/Pods-MessangerApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +139,7 @@
 		7F6F134F275A8BEC00818E06 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7F6F1370275B44D300818E06 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +150,7 @@
 				7F6F1342275A892000818E06 /* Assets.xcassets */,
 				7F6F1339275A891E00818E06 /* AppDelegate.swift */,
 				7F6F133B275A891E00818E06 /* SceneDelegate.swift */,
+				7F6F136E275B43FF00818E06 /* UIButton+Additions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -189,6 +197,7 @@
 				7F6F1366275A92D800818E06 /* AuthManager.swift */,
 				7F6F1368275A92E400818E06 /* DatabaseManager.swift */,
 				7F6F136A275A92EE00818E06 /* StorageManager.swift */,
+				7F6F136C275B43D800818E06 /* ErrorManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -309,6 +318,9 @@
 			files = (
 				7F6F135A275A8D3D00818E06 /* SignUpViewController.swift in Sources */,
 				7F6F1356275A8CF200818E06 /* TabBarViewController.swift in Sources */,
+				7F6F136D275B43D800818E06 /* ErrorManager.swift in Sources */,
+				7F6F136F275B43FF00818E06 /* UIButton+Additions.swift in Sources */,
+				7F6F1371275B44D300818E06 /* User.swift in Sources */,
 				7F6F1364275A928600818E06 /* ProfileViewController.swift in Sources */,
 				7F6F133E275A891E00818E06 /* ConversationsViewController.swift in Sources */,
 				7F6F135E275A924000818E06 /* PhotoViewerViewController.swift in Sources */,
